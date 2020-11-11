@@ -1,0 +1,52 @@
+/* regole di default */
+/* ricorda di eliminare colori e altezze inutli */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black
+}
+
+.float-left{
+  float: left;
+}
+.container{
+  background-color: lightblue;
+  width: 70% ;
+  margin: 0 auto;
+  height: 500px;
+}
+.sfondo{
+  background-color: #0d325a;
+  background-image:url('../img/background-header.png') ;
+  height: 100%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: 110% , 110%;
+}
+
+.container-header{
+ background-color: yellow;
+ margin: 0 auto;
+ height: 300px;
+ width: 75%;
+}
+.Fluentify{
+  background-color: white;
+  height: 100px;
+  width: 100px;
+}
+.listasx{
+  background-color: white;
+  height: 100px;
+  width: 100px;
+}
+.listadx{
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  float: right;
+}
