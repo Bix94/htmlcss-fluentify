@@ -7,18 +7,20 @@
 }
 
 body{
-  background-color: black
 }
-
+main{
+}
+.clearfix{
+  display: table;
+  clear: both;
+  content:""
+}
 .float-left{
   float: left;
 }
 .container{
-  background-color: lightblue;
-  width: 70% ;
-  margin: 0 auto;
-  height: 500px;
 }
+
 .sfondo{
   background-color: #0d325a;
   background-image:url('../img/background-header.png') ;
@@ -27,26 +29,141 @@ body{
   background-repeat: no-repeat;
   background-position: 110% , 110%;
 }
-
 .container-header{
- background-color: yellow;
+ height: 400px;
  margin: 0 auto;
- height: 300px;
- width: 75%;
+ width: 85%;
 }
 .Fluentify{
-  background-color: white;
-  height: 100px;
-  width: 100px;
+  margin-top: 30px;
+
 }
 .listasx{
-  background-color: white;
-  height: 100px;
-  width: 100px;
+ margin-left: 40px;
 }
+
+.listasx ul{
+  list-style: none;
+  text-transform: uppercase;
+  padding-top: 45px;
+}
+
+.listasx ul li{
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.listasx ul li a{
+  color: white;
+  text-decoration: none;
+}
+
 .listadx{
+margin-left: 100px;
+}
+
+.listadx ul{
+  list-style: none;
+  text-transform: uppercase;
+  padding-top: 40px;
+}
+
+.listadx ul li{
+  display: inline-block;
+  border: 1px solid black;
+  font-size: 14px;
+  padding: 0 10px;
+  background-color: black;
+  height: 30px;
+  border-radius: 5px
+}
+
+.listadx ul li a{
+  text-decoration: none;
+  color: white;
+  vertical-align: middle;
+}
+
+.jumbotron{
+  margin: 0 auto;
+  width: 85%;
+  padding-top: 10px;
+  /* font size+transform  */
+}
+
+/* finito */
+.corpo-top{
+  background-color: rgb(196, 196, 196);
+  text-align: center;
+  line-height: 35px;
+  padding: 30px 0;
+}
+/* finito */
+
+.corpo-middle{
+  height: 600px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+h3{
+  color:green ;
+  padding: 10px 0;
+}
+
+.immagini{
+ max-width: 30%;
+ max-height: auto;
+}
+.box-sx p{
+  padding-top: 10px;
+}
+
+
+.box-sx{
+  background-color: pink;
+  height: 500px;
+  width: 33%;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.lower{
   background-color: white;
-  height: 100px;
-  width: 100px;
-  float: right;
+  height: 420px;
+  padding-top: 40px;
+  padding-left:15%
+}
+
+.lower-sx{
+  width: 40%;
+}
+
+.lower-dx{
+  margin-left: 10%;
+  height: 300px;
+  width: 40%;
+}
+
+.lower-dx h4{
+  font-size: 30px;
+  : bottom 20px;
+  margin-bottom: 10px;
+}
+
+.lower-dx p{
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+
+.lower-dx span{
+ color: blue;
+ text-decoration: underline;
+}
+
+.bottom{
+  background-color: rgb(196, 196, 196);
+  height: 400px;
 }
