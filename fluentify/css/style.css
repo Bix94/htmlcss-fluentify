@@ -5,11 +5,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
-body{
-}
-main{
-}
+/* classi float e clear */
 .clearfix{
   display: table;
   clear: both;
@@ -18,58 +14,66 @@ main{
 .float-left{
   float: left;
 }
-.container{
-}
-
-.sfondo{
+/* header , domanda */
+header{
   background-color: #0d325a;
   background-image:url('../img/background-header.png') ;
-  height: 100%;
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: 110% , 110%;
 }
 .container-header{
- height: 400px;
+ line-height: 80px;
  margin: 0 auto;
  width: 85%;
 }
-.Fluentify{
-  margin-top: 30px;
-
+/* stessa line height di height sotto */
+.container-header li{
+  display: inline-block;
+  padding: 0 10px;
+  height: 80px;
 }
+.Fluentify{
+margin-top: 10px;
+}
+.listacc{
+padding-left: 70px;
+}
+.listadx{
+padding-left: 120px;
+}
+.jumbotron{
+  height: 450px;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+/* }
 .listasx{
  margin-left: 40px;
 }
-
 .listasx ul{
   list-style: none;
   text-transform: uppercase;
   padding-top: 45px;
 }
-
 .listasx ul li{
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
   padding: 0 10px;
 }
-
 .listasx ul li a{
   color: white;
   text-decoration: none;
 }
-
 .listadx{
 margin-left: 100px;
 }
-
 .listadx ul{
   list-style: none;
   text-transform: uppercase;
   padding-top: 40px;
 }
-
 .listadx ul li{
   display: inline-block;
   border: 1px solid black;
@@ -84,15 +88,37 @@ margin-left: 100px;
   text-decoration: none;
   color: white;
   vertical-align: middle;
+} */
+/* RIFATTO TUTTO CON CLASSI... PIU VELOCE E PULITO */
+/* regole liste btn */
+.btn{
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.btn-green{
+  background-color: #7cbb02;
+}
+.btn-large{
+  padding: 20px;
+}
+.btn-blue{
+  border: 1px solid white;
+}
+.container-header a{
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
 }
 
-.jumbotron{
-  margin: 0 auto;
-  width: 85%;
-  padding-top: 10px;
-  /* font size+transform  */
+h1{
+  font-size: 60px;
+  color: white;
+  margin-bottom: 40px;
 }
-
 /* finito */
 .corpo-top{
   background-color: rgb(196, 196, 196);
@@ -103,9 +129,11 @@ margin-left: 100px;
 /* finito */
 
 .corpo-middle{
-  height: 600px;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 40px;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 50px;
 }
 
 h3{
@@ -113,49 +141,47 @@ h3{
   padding: 10px 0;
 }
 
-.immagini{
- max-width: 30%;
- max-height: auto;
+ .immagini{
+ width: 30%;
 }
-.box-sx p{
-  padding-top: 10px;
-}
-
-
-.box-sx{
-  background-color: pink;
-  height: 500px;
-  width: 33%;
+/* .box lavoro su tutti i box se aggiugno .cc o .sx lavoro nello specifico */
+.box{
   text-align: center;
-  margin-left: 20px;
+  width: calc(100% / 3 - 20px);
+  margin: 0 10px;
+
 }
 
 .lower{
-  background-color: white;
-  height: 420px;
+  height: 85%;
   padding-top: 40px;
-  padding-left:15%
+  padding-left:15%;
+  margin-bottom: 100px;
+
 }
 
 .lower-sx{
   width: 40%;
+
 }
 
 .lower-dx{
-  margin-left: 10%;
+  margin-left: 7%;
   height: 300px;
   width: 40%;
 }
 
-.lower-dx h4{
-  font-size: 30px;
+h4{
+  font-size: 40px;
   : bottom 20px;
   margin-bottom: 10px;
 }
 
 .lower-dx p{
   line-height: 20px;
+  margin-top: 20px;
   margin-bottom: 25px;
+  font-size: 20px;
 }
 
 .lower-dx span{
@@ -166,4 +192,13 @@ h3{
 .bottom{
   background-color: rgb(196, 196, 196);
   height: 400px;
+  width: 100%;
+}
+
+.bottom-box{
+  height: 200px;
+  background-color: red;
+  width: calc(100% / 2 - 20px);
+  margin: 0 10px;
+
 }
