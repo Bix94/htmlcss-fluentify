@@ -21,11 +21,14 @@ header{
   background-size: 60%;
   background-repeat: no-repeat;
   background-position: 110% , 110%;
+  height: 600px;
+}
+.container{
+width: 85%;
+margin: 0 auto;
 }
 .container-header{
  line-height: 80px;
- margin: 0 auto;
- width: 85%;
 }
 /* stessa line height di height sotto */
 .container-header li{
@@ -46,13 +49,12 @@ padding-left: 120px;
 /* POSIZIONAMENTO JUMBO -- SISTEMA */
 .jumbotron{
   position: relative;
-  height: 500px;
+  width: 40%;
 }
 .jumbotron-testo{
   position: absolute;
   left: 0;
-  top: 50%;
-  transform:rotateY(-50%);
+  margin-top: 50px;
 }
 /* }
 .listasx{
@@ -123,7 +125,7 @@ margin-left: 100px;
 }
  /* mode h1 */
 h1{
-  font-size: 60px;
+  font-size: 50px;
   color: white;
   margin-bottom: 40px;
 }
@@ -148,7 +150,8 @@ h3{
 }
  /* IMG? */
  .immagini{
- width: 30%;
+ width: 100px;
+ height: auto;
 }
 /* .box lavoro su tutti i box se aggiugno .cc o .sx lavoro nello specifico */
 .box{
