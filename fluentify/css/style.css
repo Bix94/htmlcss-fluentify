@@ -222,13 +222,13 @@ h4{
   margin: 0 10px;
   text-align: center;
   line-height: 40px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 40px 0px; 
   /* SISTEMARE MARGINI DIV  */
 }
 .bottom-box ul a{
   margin-left: 25px;
 }
+
 
 
 .grey{
