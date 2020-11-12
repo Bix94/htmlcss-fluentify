@@ -15,6 +15,9 @@
   float: left;
 }
 /* header , domanda */
+body{
+
+}
 header{
   background-color: #0d325a;
   background-image:url('../img/background-header.png') ;
@@ -54,7 +57,7 @@ padding-left: 120px;
 .jumbotron-testo{
   position: absolute;
   left: 0;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 /* }
 .listasx{
@@ -127,7 +130,7 @@ margin-left: 100px;
 h1{
   font-size: 50px;
   color: white;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 /* MOD CORPO */
 .corpo-top{
@@ -143,24 +146,40 @@ h1{
   position: relative;
   margin-bottom: 50px;
 }
+span{
+  color: grey;
+}
  /* mode h3 */
 h3{
-  color:green ;
-  padding: 10px 0;
+  color: #7cbb02 ;
+  margin-bottom: 20px;
 }
- /* IMG? */
+.mode{
+  width: 20%;
+}
+hr{
+  width: 99%;
+  margin: 0 10px;
+}
+hr.mode{
+margin: 0 145px;
+}
+p{
+  color: grey;
+  line-height: 25px;
+  margin-top: 20px;
+ }
+ /* cambiato IMG HEIGHT DA % A PX E SISTEMATO */
  .immagini{
- width: 100px;
- height: auto;
+ height: 120px;
+ margin-bottom: 20px;
 }
 /* .box lavoro su tutti i box se aggiugno .cc o .sx lavoro nello specifico */
 .box{
   text-align: center;
-  width: calc(100% / 3 - 20px);
+  width: calc(100% / 3 - 40px);
   margin: 0 10px;
-
 }
-
   /* mod lower */
 .lower{
   height: 85%;
@@ -207,7 +226,14 @@ h4{
   margin-bottom: 20px;
   /* SISTEMARE MARGINI DIV  */
 }
+.bottom-box ul a{
+  margin-left: 25px;
+}
 
+
+.grey{
+  color: grey;
+}
 /* a.a.green.help{
   position: fixed;
   bottom: 0;
