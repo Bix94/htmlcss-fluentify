@@ -23,8 +23,8 @@ header{
   background-image:url('../img/background-header.png') ;
   background-size: 60%;
   background-repeat: no-repeat;
-  background-position: 110% , 110%;
-  height: 600px;
+  background-position: 110%  110%;
+  height: 500px;
 }
 .container{
 width: 85%;
