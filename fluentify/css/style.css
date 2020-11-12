@@ -36,16 +36,23 @@ header{
 .Fluentify{
 margin-top: 10px;
 }
+/* MARGINI LISTE */
 .listacc{
 padding-left: 70px;
 }
 .listadx{
 padding-left: 120px;
 }
+/* POSIZIONAMENTO JUMBO -- SISTEMA */
 .jumbotron{
-  height: 450px;
-  padding-top: 10px;
-  margin: 0 auto;
+  position: relative;
+  height: 500px;
+}
+.jumbotron-testo{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform:rotateY(-50%);
 }
 /* }
 .listasx{
@@ -107,27 +114,26 @@ margin-left: 100px;
 .btn-blue{
   border: 1px solid white;
 }
+/* /regole liste btn */
 .container-header a{
   color: white;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 12px;
 }
-
+ /* mode h1 */
 h1{
   font-size: 60px;
   color: white;
   margin-bottom: 40px;
 }
-/* finito */
+/* MOD CORPO */
 .corpo-top{
   background-color: rgb(196, 196, 196);
   text-align: center;
   line-height: 35px;
   padding: 30px 0;
 }
-/* finito */
-
 .corpo-middle{
   text-align: center;
   padding-top: 40px;
@@ -135,12 +141,12 @@ h1{
   position: relative;
   margin-bottom: 50px;
 }
-
+ /* mode h3 */
 h3{
   color:green ;
   padding: 10px 0;
 }
-
+ /* IMG? */
  .immagini{
  width: 30%;
 }
@@ -152,6 +158,7 @@ h3{
 
 }
 
+  /* mod lower */
 .lower{
   height: 85%;
   padding-top: 40px;
@@ -159,46 +166,49 @@ h3{
   margin-bottom: 100px;
 
 }
-
 .lower-sx{
   width: 40%;
-
 }
-
 .lower-dx{
   margin-left: 7%;
-  height: 300px;
   width: 40%;
 }
-
+ /* mode h4 */
 h4{
   font-size: 40px;
-  : bottom 20px;
   margin-bottom: 10px;
 }
-
 .lower-dx p{
-  line-height: 20px;
+  line-height: 27px;
   margin-top: 20px;
   margin-bottom: 25px;
-  font-size: 20px;
+  font-size: 25px;
 }
-
 .lower-dx span{
  color: blue;
  text-decoration: underline;
 }
-
+ /* MODE BOTTOM */
 .bottom{
   background-color: rgb(196, 196, 196);
-  height: 400px;
   width: 100%;
+  height: 40px;
+  /* SISTEMARE MARGINI DIV */
 }
-
 .bottom-box{
-  height: 200px;
-  background-color: red;
   width: calc(100% / 2 - 20px);
   margin: 0 10px;
-
+  text-align: center;
+  line-height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* SISTEMARE MARGINI DIV  */
 }
+
+/* a.a.green.help{
+  position: fixed;
+  bottom: 0;
+  right: 10%
+}??
+ */
+/* ADD FONT */
